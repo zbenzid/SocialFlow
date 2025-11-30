@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Social Flow | Agence Digitale & Growth Mantes-la-Jolie (78)</title>
+    <meta name="description" content="Agence Social Flow : Transformez votre visibilité en clients. Création web, SEO et Publicité à Mantes-la-Jolie et dans les Yvelines. Design audacieux, résultats concrets." />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['Inter', 'sans-serif'],
+              display: ['Space Grotesk', 'sans-serif'],
+            },
+            colors: {
+              brand: {
+                50: '#fff1f1',
+                100: '#ffdfdf',
+                200: '#ffc5c5',
+                300: '#ff9d9d',
+                400: '#ff6464',
+                500: '#ff2929', // Main Red
+                600: '#ed1515',
+                700: '#c80d0d',
+                800: '#a50f0f',
+                900: '#881414',
+                950: '#4b0404',
+              },
+              accent: {
+                500: '#6366f1', // Violet/Indigo for depth
+                900: '#312e81',
+              }
+            },
+            animation: {
+              'spin-slow': 'spin 12s linear infinite',
+              'float': 'float 6s ease-in-out infinite',
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              float: {
+                '0%, 100%': { transform: 'translateY(0)' },
+                '50%': { transform: 'translateY(-20px)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    
+    <!-- Cal.com Embed Logic -->
+    <script>
+      (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; d = C.document; C.cal = C.cal || function () { let cal = C.cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; typeof namespace === "string" ? (cal.ns[namespace] = api) && p(api, ar) : p(cal, ar); return; } p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+      cal("init",  {origin:"https://cal.com"});
+      cal.ns.devis_express("ui", {"styles":{"branding":{"brandColor":"#ff2929"}},"hideEventTypeDetails":false,"layout":"month_view"});
+    </script>
+    
+    <style>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #000; 
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333; 
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #ff2929; 
+      }
+      
+      .glass-card {
+        background: rgba(23, 23, 23, 0.6);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        border: 1px solid rgba(255, 255, 255, 0.05);
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.555.0",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24"
+  }
+}
+</script>
+</head>
+  <body class="bg-black text-white antialiased selection:bg-brand-500 selection:text-white overflow-x-hidden">
+    <div id="root"></div>
+  </body>
+</html>
